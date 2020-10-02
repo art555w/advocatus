@@ -69,9 +69,12 @@ h2,
 h3,
 h4,
 h5,
-h6 {
+h6,
+p {
 	font-size: inherit;
 	font-weight: inherit;
+	padding: 0;
+	margin: 0;
 }
 
 html,
@@ -87,6 +90,12 @@ body {
 
 .container {
 	max-width: 1200px;
+	padding: 0px 15px;
+	margin: 0px auto;
+}
+
+.container-fluid {
+	max-width: 1000px;
 	padding: 0px 15px;
 	margin: 0px auto;
 }

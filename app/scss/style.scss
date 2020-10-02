@@ -29,6 +29,53 @@
 	}
 }
 
+//section top =================================================================================
+
+.top {
+	min-height: 840px;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.top__inner {
+	color: #ffffff;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-top: 596px;
+}
+
+.top__text {
+	border-left: 2px solid #e8bf5d;
+	padding-left: 16px;
+}
+
+.top__text-title {
+	font-size: 65px;
+	font-family: "Playfair Display", serif;
+	margin-bottom: 15px;
+}
+
+.top__text-subtitle {
+	font-size: 31px;
+	letter-spacing: 1.24px;
+	line-height: 36px;
+}
+
+.top__link {
+	a {
+		color: #111111;
+		font-family: "Playfair Display", serif;
+		font-size: 16px;
+		line-height: 31px;
+		letter-spacing: 0.64px;
+		padding: 14px 46px;
+		border-radius: 25px;
+		background-color: #e8bf5d;
+	}
+}
+
 // footer =============================================================
 
 .footer {
