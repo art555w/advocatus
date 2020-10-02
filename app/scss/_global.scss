@@ -86,6 +86,7 @@ body {
 	font-family: "Open Sans", sans-serif;
 	font-size: 14px;
 	font-weight: 400;
+	color: #111111;
 }
 
 .container {
@@ -108,4 +109,26 @@ body {
 
 .content {
 	flex: 1 0 auto;
+}
+
+.title-box {
+	max-width: 800px;
+	padding: 0px 10px 0 20px;
+	border-left: 2px solid #e8bf5d;
+	font-family: "Playfair Display", serif;
+	margin-bottom: 70px;
+	position: relative;
+
+	h3 {
+		font-size: 31px;
+		line-height: 44.84px;
+		letter-spacing: 1.24px;
+		margin-bottom: 10px;
+	}
+	p {
+		color: #666666;
+		font-size: 21px;
+		line-height: 30.89px;
+		letter-spacing: 0.84px;
+	}
 }
