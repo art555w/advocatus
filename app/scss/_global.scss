@@ -89,6 +89,10 @@ body {
 	color: #111111;
 }
 
+section {
+	padding: 100px 0;
+}
+
 .container {
 	max-width: 1200px;
 	padding: 0px 15px;
@@ -119,13 +123,13 @@ body {
 	margin-bottom: 70px;
 	position: relative;
 
-	h3 {
+	.title {
 		font-size: 31px;
 		line-height: 44.84px;
 		letter-spacing: 1.24px;
 		margin-bottom: 10px;
 	}
-	p {
+	.subtitle {
 		color: #666666;
 		font-size: 21px;
 		line-height: 30.89px;

@@ -147,6 +147,88 @@
 	}
 }
 
+// section practis ========================================================
+
+.practis {
+	background-color: #111;
+	color: #fff;
+	a {
+		color: #fff;
+	}
+
+	&__box-title {
+		color: #fff;
+	}
+
+	&__box-subtitle {
+		color: #b9b9b9;
+	}
+
+	&__inner {
+		display: flex;
+		justify-content: space-between;
+		flex-wrap: wrap;
+	}
+
+	&__inner-box {
+		max-width: 460px;
+		padding-left: 90px;
+		padding-right: 10px;
+		margin-bottom: 70px;
+		position: relative;
+		transition: all 0.3s;
+		&::before {
+			content: "";
+			font-family: "icomoon";
+			position: absolute;
+			top: 6px;
+			left: 0;
+			color: #e8bf5d;
+			font-size: 45px;
+			line-height: 31px;
+		}
+		&:hover {
+			box-shadow: 5px 5px 5px #fff;
+		}
+	}
+
+	&__inner-title {
+		font-family: "Playfair Display", serif;
+		font-size: 21px;
+		line-height: 31px;
+		letter-spacing: 0.84px;
+		margin-bottom: 25px;
+	}
+
+	&__inner-text {
+		line-height: 25px;
+	}
+}
+
+.client {
+	&::before {
+		content: "\f2b5";
+	}
+}
+.cyber {
+	&::before {
+		content: "\f108";
+		top: 14px;
+	}
+}
+.labour {
+	&::before {
+		content: "\f0ad";
+		top: 10px;
+	}
+}
+.estate {
+	&::before {
+		content: "\f015";
+		top: 10px;
+	}
+}
+
 // footer =============================================================
 
 .footer {
