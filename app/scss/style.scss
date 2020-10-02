@@ -1,9 +1,33 @@
-html {
-  box-sizing: border-box;
+@import "global";
+@import "fonts";
+
+.header__inner {
+	display: flex;
+	justify-content: space-between;
+	height: 110px;
+	align-items: center;
 }
 
-*,
-*::before,
-*::after {
-  box-sizing: inherit;
+.header__menu {
+}
+
+.header__list {
+	li {
+		display: inline-block;
+	}
+	a {
+		color: #111111;
+		font-size: 14px;
+		font-weight: 700;
+		line-height: 30px;
+		text-transform: uppercase;
+		padding-bottom: 10px;
+		transition: all 0.1s;
+		&:hover {
+			border-bottom: 5px solid #e8bf5d;
+		}
+	}
+	li + li {
+		margin-left: 45px;
+	}
 }
