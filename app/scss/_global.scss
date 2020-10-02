@@ -74,6 +74,11 @@ h6 {
 	font-weight: inherit;
 }
 
+html,
+body {
+	height: 100%;
+}
+
 body {
 	font-family: "Open Sans", sans-serif;
 	font-size: 14px;
@@ -84,4 +89,14 @@ body {
 	max-width: 1200px;
 	padding: 0px 15px;
 	margin: 0px auto;
+}
+
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+}
+
+.content {
+	flex: 1 0 auto;
 }
